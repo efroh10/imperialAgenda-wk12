@@ -10,9 +10,42 @@ body    {
     color: white;
 }
 
-.input  {
+.instructions   {
+    font-style: italic;
+}
+
+li  {
+    list-style-type: none;
+}
+
+.item {
+    display: flex;
+}
+
+button  {
     position: relative;
     left: 40px;
 }
 
-/* find a star wars font */
+.modal  {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    opacity: .8;
+}
+
+.modalMember    {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.inevitable {
+    font-size: xxx-large;
+    font-style: bold;
+}
